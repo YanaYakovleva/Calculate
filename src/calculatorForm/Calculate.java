@@ -39,6 +39,7 @@ public class Calculate extends JFrame {
         this.setSize(200,220);
         this.setLocation(200,200);
 
+        /* Создание листенера для события "Нажатие кнопки" */
         calculateButton.addActionListener((e) -> {
             Double divisible=null;
             Double divisor=null;
